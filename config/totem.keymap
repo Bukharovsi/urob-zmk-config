@@ -1,6 +1,5 @@
 /* source key position labels */
 #include "zmk-helpers/key-labels/totem.h"
-#include "zmk-helpers/unicode-chars/russian.dtsi"
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
