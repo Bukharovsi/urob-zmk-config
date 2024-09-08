@@ -13,6 +13,8 @@
 #
 ---
 include:
+  - board: totem_left
+  - board: totem_right
   - board: planck_rev6
   - board: corneish_zen_v2_left
   - board: corneish_zen_v2_right

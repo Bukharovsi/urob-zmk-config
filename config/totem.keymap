@@ -1,0 +1,12 @@
+/* source key position labels */
+#include "zmk-helpers/key-labels/totem.h"
+#include "zmk-helpers/unicode-chars/russian.dtsi"
+
+/* activate bluetooth */
+#define CONFIG_WIRELESS 1
+
+/* source the main keymap */
+#include "base.keymap"
+
+/* use 5-column layout for Zen */
+ZMK_APPLY_MATRIX_TRANSFORM(five_column_transform)
