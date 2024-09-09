@@ -103,7 +103,7 @@ MAKE_HRM(
     my_key_hrm,        // Configuration name
     &kp LC,            // Hold action (Left Control)
     &kp A,             // Tap action (Key 'A')
-    0                  // Trigger position
+    KEYS_L THUMBS      // Trigger position
 );
 
 /* Caps-word, num-word and smart-mouse */
