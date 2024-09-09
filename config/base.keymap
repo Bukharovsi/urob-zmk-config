@@ -11,6 +11,7 @@
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/unicode-chars/greek.dtsi"
 #include "zmk-helpers/unicode-chars/german.dtsi"
+#include "zmk-helpers/unicode-chars/russian.dtsi"
 
 #define DEF 0
 #define NAV 1
@@ -97,6 +98,13 @@ ZMK_HOLD_TAP(mt_end, bindings = <&masked_end>, <&kp>; MT_CORE)
     )
 MASK_MODS(masked_home, (MOD_LCTL), &kp HOME)
 MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
+
+MAKE_HRM(
+    my_key_hrm,        // Configuration name
+    &kp LC,            // Hold action (Left Control)
+    &kp A,             // Tap action (Key 'A')
+    0                  // Trigger position
+);
 
 /* Caps-word, num-word and smart-mouse */
 
