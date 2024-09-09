@@ -99,7 +99,7 @@ ZMK_HOLD_TAP(mt_end, bindings = <&masked_end>, <&kp>; MT_CORE)
 MASK_MODS(masked_home, (MOD_LCTL), &kp HOME)
 MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
 
-MAKE_HRM(my_key_hrm, &kp LCTRL, &kp A, KEYS_L);
+ZMK_HOLD_TAP(mt_end, bindings = <&kp LCTRL>, <&kp A>; MT_CORE)
 
 /* Caps-word, num-word and smart-mouse */
 
