@@ -101,7 +101,7 @@ MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
 
 MAKE_HRM(
     my_key_hrm,        // Configuration name
-    &kp LC,            // Hold action (Left Control)
+    &kp LCTRL,            // Hold action (Left Control)
     &kp A,             // Tap action (Key 'A')
     KEYS_L THUMBS      // Trigger position
 );
